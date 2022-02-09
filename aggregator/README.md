@@ -8,7 +8,7 @@ Verification Gateway.
 
 ## Installation
 
-Install [Deno](deno.land).
+Install [Deno](deno.land)
 
 ### Configuration
 
@@ -165,6 +165,10 @@ TS2300 [ERROR]: Duplicate identifier 'TypedArray'.
 You need to reload modules (`-r`):
 
 `deno run -r --allow-net --allow-env --allow-read --unstable ./programs/aggregator.ts`
+
+#### Transaction reverted: function call to a non-contract account
+
+TODO Fill in
 
 ### Notable Components
 
